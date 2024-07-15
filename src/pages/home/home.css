@@ -1,0 +1,46 @@
+.home{
+    padding-top: 5rem;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-h1{
+    font-size: 3rem;
+    padding: 1rem;
+    width: 45%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    position: relative;
+    bottom: 8rem;
+}
+
+.home-h5{
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 45%;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
+}
+
+.home-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    background-image: linear-gradient( 179.6deg,  rgba(0,19,26,1) -4.9%, rgba(0,77,105,1) 108.4% );
+    color: #fff;
+
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.home-h5 {
+    opacity: 0;
+    animation: fadeIn 3s ease-in forwards;
+}

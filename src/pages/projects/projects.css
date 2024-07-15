@@ -1,0 +1,62 @@
+.projects{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-h1{
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8rem;
+    text-align: center ;
+}
+
+.proyectos{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    border: 1px solid white;
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto-img{
+    padding: 0.5rem;
+    width: 600px;
+}
+
+.proyecto-div1{
+    width: 50%;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 1500px){
+    .proyecto-img{
+        width: 100%;
+        
+    }
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        
+    }
+    .proyecto-div1{
+        padding: 1rem;
+        width: 100%;
+    }
+    .proyecto-div2{
+        width: 100%;
+        padding: 1rem;
+    }
+}
+    
