@@ -54,5 +54,10 @@
         right: 10%;
         
     }
-    
+    @media screen and (max-width: 500px) {
+        .navbar-nav2 {
+            position: absolute;
+            right: 30%;
+        }
+    }
 }
