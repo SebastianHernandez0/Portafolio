@@ -44,3 +44,11 @@
     opacity: 0;
     animation: fadeIn 3s ease-in forwards;
 }
+
+@media screen and (max-width: 500px) {
+    .home-h1{
+        font-size: 2rem;
+        
+    }}
+    
+    
