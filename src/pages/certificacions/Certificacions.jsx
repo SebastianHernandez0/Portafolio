@@ -5,7 +5,7 @@ export default function Certifications() {
     {
       titulo: "Desarrollador Full Stack",
       imagen: "./img/proyectofinal.png",
-      link: "https://desafiosdev.s3.amazonaws.com/uploads/certification/image/33460/certificacion-aprobacion-de-carrera-nuevo-proyecto-final-g50-15535(3).png",
+      link: "https://desafiosdev.s3.amazonaws.com/uploads/certification/image/33460/certificacion-aprobacion-de-carrera-nuevo-proyecto-final-g50-15535(2).png",
 
     },
     
@@ -24,7 +24,7 @@ export default function Certifications() {
     {
       titulo: "Desarrollador Front End React",
       imagen: "./img/react.png",
-      link: "https://desafiosdev.s3.amazonaws.com/uploads/certification/image/30407/certificacion-aprobacion-de-carrera-nuevo-react-ii-g50-15535(2).png",
+      link: "https://desafiosdev.s3.amazonaws.com/uploads/certification/image/30407/certificacion-aprobacion-de-carrera-nuevo-react-ii-g50-15535(3).png",
 
     },
     {

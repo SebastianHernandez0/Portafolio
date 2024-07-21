@@ -9,6 +9,14 @@ export default function Projects() {
       habilidadesDesarrolladas: "Gestión de bases de datos relacionales con PostgreSQL. Desarrollo de aplicaciones server-side con Node.js y Express. Implementación de mecanismos de seguridad en aplicaciones web. Mejora de eficiencia en consultas y manejo de datos. Integración de servicios externos y APIs.",
       imagen: "./img/EdiMarket.png",
       link: "https://github.com/Edisonven/EdiMarket",
+    },
+    {
+      titulo: "Ecommerce",
+      descripcion:
+        "Desarrollé un ecommerce como proyecto final de un bootcamp junto a 2 compañeros, yo fui el encargado de toda la parte del backend. En donde utilicé tecnologías como: Node.js, Express, PostgreSQL. Responsabilidades: Diseño y Arquitectura: Diseñé la arquitectura del backend para garantizar la escalabilidad y eficiencia. Desarrollo de APIs REST: Implementé APIs RESTful para manejar operaciones de usuarios, productos, órdenes y pagos. Gestión de Base de Datos: Configuré y administré una base de datos PostgreSQL para almacenar y gestionar datos de productos, usuarios y pedidos. Autenticación y Autorización: Integré mecanismos de autenticación y autorización usando JWT para la seguridad de los usuarios. Validación y Manejo de Errores: Implementé validación de datos y manejo robusto de errores para mejorar la fiabilidad del sistema. ",
+      habilidadesDesarrolladas: "Gestión de bases de datos relacionales con PostgreSQL. Desarrollo de aplicaciones server-side con Node.js y Express. Implementación de mecanismos de seguridad en aplicaciones web. Mejora de eficiencia en consultas y manejo de datos. Integración de servicios externos y APIs.",
+      imagen: "./img/EdiMarket.png",
+      link: "https://github.com/Edisonven/EdiMarket",
     }
   ];
   return (
