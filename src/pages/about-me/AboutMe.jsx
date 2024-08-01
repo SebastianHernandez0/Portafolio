@@ -35,25 +35,7 @@ export default function AboutMe() {
             <li>Backend: Node.js, Express, PostgreSQL</li>
             <li>Control de Versiones: Git, GitHub</li>
           </ul>
-          <p className="about-me-p">proyecto destacado:</p>
-          <ul>
-            <li>
-              Ecommerce: Desarrollé el backend completo de una plataforma de
-              comercio electrónico utilizando Node.js, Express y PostgreSQL.
-            </li>
-            <li>
-              Implementé funcionalidades como autenticación, gestión de
-              productos y procesamiento de pagos.
-            </li>
-          </ul>
-          <br></br>
-          <p className="about-me-p">
-            Soy un aprendiz constante y me encanta enfrentar nuevos desafíos. Me
-            esfuerzo por escribir código limpio y eficiente, y siempre busco
-            oportunidades para mejorar mis habilidades y contribuir al éxito de
-            los proyectos en los que participo.
-          </p>
-          <br></br>
+          
           <p className="about-me-p">
             Mi objetivo a corto plazo es consolidar mi experiencia profesional
             en desarrollo Full Stack, comenzando en una posición junior donde
