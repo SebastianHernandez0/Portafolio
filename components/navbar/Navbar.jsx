@@ -32,7 +32,7 @@ export default function Navbar() {
           <FaGithub className="nav-link" size={30} />
         </a>
         <a
-          href="https://www.linkedin.com/in/sebasti%C3%A1n-hern%C3%A1ndez-b48115280/"
+          href="https://www.linkedin.com/in/sebasti%C3%A1nhern%C3%A1ndezs/"
           target="_blank"
           rel="noreferrer"
         >
