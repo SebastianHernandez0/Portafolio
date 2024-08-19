@@ -13,7 +13,7 @@ export default function AboutMe() {
             <a
               className="text-span"
               target="_blank"
-              href="https://www.linkedin.com/in/sebasti%C3%A1n-hern%C3%A1ndez-b48115280/"
+              href="https://www.linkedin.com/in/sebasti%C3%A1nhern%C3%A1ndezs/"
             >
               disponible para trabajar
             </a>
