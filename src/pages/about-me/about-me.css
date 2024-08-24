@@ -1,122 +1,116 @@
-.about-me{
-    padding-top: 5rem;
-    width: 100%;
-    height: 94vh;
-    overflow-y: scroll;
+.about-me {
+  padding-top: 5rem;
+  width: 100%;
+  height: 94vh;
+  overflow-y: scroll;
 }
 
-
-
-.about-me-h1{
-    font-size: 3rem;
-    text-align: center;
-    
+.about-me-h1 {
+  font-size: 3rem;
+  text-align: center;
 }
 
-.about-me-text{
-    width: 40%;
+.about-me-text {
+  width: 40%;
 }
 
-.img-img{
-    width: 400px;
-    border-radius: 15%;
-    border: 5px solid white;
-    padding: 2rem;
+.img-img {
+  width: 400px;
+  border-radius: 15%;
+  border: 5px solid white;
+  padding: 2rem;
 }
 
-.about-me-div{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-top: 5rem;
+.about-me-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 5rem;
 }
-.text-span2{
-    animation: changeColor 5s infinite alternate;
+.text-span2 {
+  animation: changeColor 5s infinite alternate;
 }
 
-
-.text-span{
-    display: inline-block;
-    opacity: 50%;
-    font-size: 1rem;
-    border: 1px solid white;
-    border-radius: 30px;
-    padding: 1rem;
-    transition: box-shadow 0.3s, transform 0.3s; 
-    animation: changeBorderColor 1s infinite alternate;
-    margin-bottom: 20px;    
+.text-span {
+  display: inline-block;
+  opacity: 50%;
+  font-size: 1rem;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 1rem;
+  transition: box-shadow 0.3s, transform 0.3s;
+  animation: changeBorderColor 1s infinite alternate;
+  margin-bottom: 20px;
 }
+
 
 .text-span:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    opacity: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
-
 
 .text-span:active {
-    transform: scale(0.98); 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.about-me-p{
-    font-size: 1.1rem;
-    padding: 1rem;
+.about-me-p {
+  font-size: 1.1rem;
+  padding: 1rem;
 }
 
 @keyframes changeBorderColor {
-    0% {
-        border-color: rgb(0, 0, 0);
-    }
-    25% {
-        border-color: rgb(53, 52, 63);
-    }
-    50% {
-        border-color: rgb(77, 77, 119);
-    }
-    75% {
-        border-color: rgb(74, 47, 148);
-    }
-    100% {
-        border-color: rgb(71, 19, 214);
-    }
+  0% {
+    border-color: rgb(0, 0, 0);
+  }
+  25% {
+    border-color: rgb(53, 52, 63);
+  }
+  50% {
+    border-color: rgb(77, 77, 119);
+  }
+  75% {
+    border-color: rgb(74, 47, 148);
+  }
+  100% {
+    border-color: rgb(71, 19, 214);
+  }
 }
 
 @keyframes changeColor {
-    0% {
-        color: rgb(0, 0, 0);
-    }
-    25% {
-        color: rgb(53, 52, 63);
-    }
-    50% {
-        color: rgb(77, 77, 119);
-    }
-    75% {
-        color: rgb(74, 47, 148);
-    }
-    100% {
-        color: rgb(71, 19, 214);
-    }
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  25% {
+    color: rgb(53, 52, 63);
+  }
+  50% {
+    color: rgb(77, 77, 119);
+  }
+  75% {
+    color: rgb(74, 47, 148);
+  }
+  100% {
+    color: rgb(71, 19, 214);
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .about-me-div{
-        flex-direction: column;
-        align-items: center;
-        padding: 1rem;
-    }
-    .about-me-text{
-        width: 100%;
-    }
-    .img-img{
-        width: 200px;
-        border-radius: 15%;
-        border: 2px solid white;
-        padding: 1rem;
-    }
-    .about-metext-h1{
-        padding-top: 3rem;
-        
-    }
-    
+  .about-me-div {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .about-me-text {
+    width: 100%;
+  }
+  .img-img {
+    width: 200px;
+    border-radius: 15%;
+    border: 2px solid white;
+    padding: 1rem;
+  }
+  .about-metext-h1 {
+    padding-top: 3rem;
+  }
 }

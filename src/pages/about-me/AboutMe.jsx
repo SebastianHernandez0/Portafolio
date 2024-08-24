@@ -4,12 +4,12 @@ export default function AboutMe() {
     <div className="about-me">
       <h1 className="about-me-h1">Desarrollador Full Stack</h1>
       <div className="about-me-div">
-      <div className="about-me-img">
+        <div className="about-me-img">
           <img className="img-img" src="./img/Foto.jpg"></img>
         </div>
         <div className="about-me-text">
           <h1 className="about-metext-h1">
-            Hey! Soy <span className="text-span2">Sebastián Hernández</span> {" "}
+            Hey! Soy <span className="text-span2">Sebastián Hernández</span>{" "}
             <a
               className="text-span"
               target="_blank"
@@ -18,7 +18,7 @@ export default function AboutMe() {
               disponible para trabajar
             </a>
           </h1>
-          
+
           <br></br>
           <p className="about-me-p">
             Autodidacta, Apasionado por la tecnologia, con muchas ganas de
@@ -35,7 +35,15 @@ export default function AboutMe() {
             <li>Backend: Node.js, Express, PostgreSQL</li>
             <li>Control de Versiones: Git, GitHub</li>
           </ul>
-          
+          <p className="about-me-p">
+            El bootcamp fue una experiencia fundamental en mi formación como
+            desarrollador, proporcionándome una base sólida en tecnologías full
+            stack. Fue allí donde descubrí mi verdadera pasión por el desarrollo
+            backend. Desde entonces, he decidido especializarme en esta área y
+            actualmente estoy estudiando C# con la intención de profundizar mis
+            conocimientos en .NET y seguir avanzando en el desarrollo backend.
+          </p>
+
           <p className="about-me-p">
             Mi objetivo a corto plazo es consolidar mi experiencia profesional
             en desarrollo Full Stack, comenzando en una posición junior donde
@@ -49,7 +57,6 @@ export default function AboutMe() {
             dudes en ponerte en contacto conmigo.
           </p>
         </div>
-        
       </div>
     </div>
   );
